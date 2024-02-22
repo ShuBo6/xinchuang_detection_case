@@ -1,0 +1,7 @@
+##############################NEXT PROBE##############################
+# {{ .Name }}
+Probe TCP Dameng q|{{ .RawData }}|
+rarity {{ .Rarity }}
+ports {{ .Ports }}
+{{ .Opts }}
+{{ .Matchers }}
